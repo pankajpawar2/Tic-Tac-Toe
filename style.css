@@ -1,0 +1,44 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  background: rgba(224, 69, 42, 0.13);
+}
+
+.game-console {
+  display: grid;
+  width: 500px;
+  height: 500px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: grey;
+  display: none
+}
+
+
+.game-console div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  font-size: 40px;
+}
+
+#start-btn {
+  font-size: 20px;
+  position: fixed;
+  top: 200px;
+  left: 300px;
+  width: 50vw;
+  height: 20vh; 
+  background: rgb(48, 149, 189);
+}
+
+#replay-btn {
+  display: none;
+  margin: 10px;
+}
